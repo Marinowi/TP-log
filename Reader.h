@@ -12,6 +12,7 @@
 
 //--------------------------------------------------- Interfaces utilisées
 #include <fstream>
+#include "Line.h"
 
 using namespace std;
 //------------------------------------------------------------- Constantes
@@ -30,19 +31,14 @@ class Reader : public ifstream
 
   public:
     //----------------------------------------------------- Méthodes publiques
-    // type Méthode ( liste des paramètres );
+    void nextLine ( Line & aLine );
     // Mode d'emploi :
     //
     // Contrat :
     //
 
     //------------------------------------------------- Surcharge d'opérateurs
-    Reader &operator=(const Reader &aReader);
-    // Mode d'emploi :
-    //
-    // Contrat :
-    //
-
+   
     //-------------------------------------------- Constructeurs - destructeur
     Reader(const Reader &aReader);
     // Mode d'emploi (constructeur de copie) :

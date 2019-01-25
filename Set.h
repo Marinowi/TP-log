@@ -37,12 +37,6 @@ public:
 
 
 //------------------------------------------------- Surcharge d'opérateurs
-    Set & operator = ( const Set & aSet );
-    // Mode d'emploi :
-    //
-    // Contrat :
-    //
-
 
 //-------------------------------------------- Constructeurs - destructeur
     Set ( const Set & aSet );

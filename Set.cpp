@@ -29,11 +29,6 @@ using namespace std;
 //} //----- Fin de Méthode
 
 //------------------------------------------------- Surcharge d'opérateurs
-Set &Set::operator=(const Set &aSet)
-// Algorithme :
-//
-{
-} //----- Fin de operator =
 
 //-------------------------------------------- Constructeurs - destructeur
 Set::Set(const Set &aSet)

@@ -35,12 +35,9 @@ public:
   // Contrat :
   //
 
+  friend void SortedNodeSet::copy(const NodeSet & aNodeSet);
+
   //------------------------------------------------- Surcharge d'opérateurs
-  NodeSet &operator=(const NodeSet &aNodeSet);
-  // Mode d'emploi :
-  //
-  // Contrat :
-  //
 
   //-------------------------------------------- Constructeurs - destructeur
   NodeSet(const NodeSet &aNodeSet);

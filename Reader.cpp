@@ -29,11 +29,6 @@ using namespace std;
 //} //----- Fin de Méthode
 
 //------------------------------------------------- Surcharge d'opérateurs
-Reader &Reader::operator=(const Reader &aReader)
-// Algorithme :
-//
-{
-} //----- Fin de operator =
 
 //-------------------------------------------- Constructeurs - destructeur
 Reader::Reader(const Reader &aReader)

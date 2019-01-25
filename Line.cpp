@@ -29,11 +29,7 @@ using namespace std;
 //} //----- Fin de Méthode
 
 //------------------------------------------------- Surcharge d'opérateurs
-Line &Line::operator=(const Line &aLine)
-// Algorithme :
-//
-{
-} //----- Fin de operator =
+
 
 //-------------------------------------------- Constructeurs - destructeur
 Line::Line(const Line &aLine)

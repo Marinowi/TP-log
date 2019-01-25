@@ -29,11 +29,6 @@ using namespace std;
 //} //----- Fin de Méthode
 
 //------------------------------------------------- Surcharge d'opérateurs
-SortedNodeSet &SortedNodeSet::operator=(const SortedNodeSet &aSortedNodeSet)
-// Algorithme :
-//
-{
-} //----- Fin de operator =
 
 //-------------------------------------------- Constructeurs - destructeur
 SortedNodeSet::SortedNodeSet(const SortedNodeSet &aSortedNodeSet)

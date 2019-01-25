@@ -11,7 +11,10 @@
 #define SORTEDNODESET_H
 
 //--------------------------------------------------- Interfaces utilisées
+#include "NodeSet.h"
+#include <iostream>
 
+using namespace std;
 //------------------------------------------------------------- Constantes
 
 //------------------------------------------------------------------ Types
@@ -28,18 +31,15 @@ class SortedNodeSet
 
   public:
     //----------------------------------------------------- Méthodes publiques
-    // type Méthode ( liste des paramètres );
+    void copy ( const NodeSet & aNodeSet );
     // Mode d'emploi :
     //
     // Contrat :
     //
 
     //------------------------------------------------- Surcharge d'opérateurs
-    SortedNodeSet &operator=(const SortedNodeSet &aSortedNodeSet);
-    // Mode d'emploi :
-    //
-    // Contrat :
-    //
+  
+    friend ostream & operator<< (ostream & out, const SortedNodeSet & aSortedNodeSet);
 
     //-------------------------------------------- Constructeurs - destructeur
     SortedNodeSet(const SortedNodeSet &aSortedNodeSet);
@@ -67,6 +67,8 @@ class SortedNodeSet
 
     //----------------------------------------------------- Attributs protégés
 };
+
+ostream & operator<< (ostream & out, const SortedNodeSet & aSortedNodeSet);
 
 //-------------------------------- Autres définitions dépendantes de <SortedNodeSet>
 

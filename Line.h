@@ -44,11 +44,6 @@ public:
   //
 
   //------------------------------------------------- Surcharge d'opérateurs
-  Line &operator=(const Line &aLine);
-  // Mode d'emploi :
-  //
-  // Contrat :
-  //
 
   //-------------------------------------------- Constructeurs - destructeur
   Line(const Line &aLine);

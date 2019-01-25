@@ -29,11 +29,6 @@ using namespace std;
 //} //----- Fin de Méthode
 
 //------------------------------------------------- Surcharge d'opérateurs
-ArcSet &ArcSet::operator=(const ArcSet &anArcSet)
-// Algorithme :
-//
-{
-} //----- Fin de operator =
 
 //-------------------------------------------- Constructeurs - destructeur
 ArcSet::ArcSet(const ArcSet &anArcSet)
