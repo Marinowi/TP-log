@@ -22,15 +22,17 @@
 //---------------------------------------------------- Variables statiques
 
 //------------------------------------------------------ Fonctions privées
-//static type nom ( liste de paramètres )
+int main (int agrc, char* argv[])
 // Mode d'emploi :
 //
 // Contrat :
 //
 // Algorithme :
 //
-//{
-//} //----- fin de nom
+{
+
+  return 1;
+} //----- fin de main
 
 //////////////////////////////////////////////////////////////////  PUBLIC
 //---------------------------------------------------- Fonctions publiques

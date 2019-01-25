@@ -16,17 +16,18 @@ using namespace std;
 
 //------------------------------------------------------ Include personnel
 #include "SortedNodeSet.h"
+#include "NodeSet.h"
 
 //------------------------------------------------------------- Constantes
 
 //----------------------------------------------------------------- PUBLIC
 
 //----------------------------------------------------- Méthodes publiques
-// type SortedNodeSet::Méthode ( liste des paramètres )
+void SortedNodeSet::copy ( const NodeSet & aNodeSet )
 // Algorithme :
 //
-//{
-//} //----- Fin de Méthode
+{
+} //----- Fin de copy
 
 //------------------------------------------------- Surcharge d'opérateurs
 

@@ -11,7 +11,6 @@
 #define SORTEDNODESET_H
 
 //--------------------------------------------------- Interfaces utilisées
-#include "NodeSet.h"
 #include <iostream>
 
 using namespace std;
@@ -24,7 +23,7 @@ using namespace std;
 //
 //
 //------------------------------------------------------------------------
-
+class NodeSet;
 class SortedNodeSet
 {
     //----------------------------------------------------------------- PUBLIC

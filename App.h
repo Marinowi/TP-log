@@ -25,7 +25,7 @@
 
 //////////////////////////////////////////////////////////////////  PUBLIC
 //---------------------------------------------------- Fonctions publiques
-// type Nom ( liste de paramètres );
+int main ( int argc, char* avrgv[] );
 // Mode d'emploi :
 //
 // Contrat :
